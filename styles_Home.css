@@ -917,13 +917,14 @@ a {
 }
 
 .text-overlay {
-  padding-top: 8%;
+  padding-top: 9%;
   color: white;
   text-align: center;
   align-self: center; /* Vertical center */
   justify-self: center; /* Horizontal center */
   z-index: 2;
 }
+
 
 
 
