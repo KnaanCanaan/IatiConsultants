@@ -864,6 +864,19 @@ a {
   }
 }
 
+@media (max-width: 400px){
+  .text-overlay {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2; /* Higher than pseudo-element */
+    width: 80%;
+  }
+}
+
 @media (max-width: 200px) {
   .work-image{
     width: 150px;
@@ -913,5 +926,6 @@ a {
   z-index: 2; /* Higher than pseudo-element */
   width: 80%;
 }
+
 
 
