@@ -917,15 +917,14 @@ a {
 }
 
 .text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 8%;
   color: white;
   text-align: center;
-  z-index: 2; /* Higher than pseudo-element */
-  width: 80%;
+  align-self: center; /* Vertical center */
+  justify-self: center; /* Horizontal center */
+  z-index: 2;
 }
+
 
 
 
